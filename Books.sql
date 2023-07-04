@@ -15,7 +15,7 @@ insert into books values("A Game of Thrones","George R.R. Martin","Novel",1996,7
 insert into books values("Ponniyin Selvan","Kalki Krishnamurthy","Historical Fiction",1954,900);
 insert into books values("Thirukural","Thiruvalluvar","Poetry",1812,300);
 select * from books;
-select bookstitle,author,publicationyear,price from books where bookstitle = "Harry potter";
+select bookstitle,author,genre,publicationyear,price from books where bookstitle = "Harry potter";
 update books set price=1000 where bookstitle="Ponniyin Selvan";
 delete from books where bookstitle="A Game of Thrones";
 
